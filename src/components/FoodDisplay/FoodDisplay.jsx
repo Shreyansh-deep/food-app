@@ -22,6 +22,8 @@ const FoodDisplay = ({ category }) => {
                 image={item.image}
               />
             );
+          }else {
+            return null; 
           }
         })}
       </div>

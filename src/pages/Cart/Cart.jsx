@@ -39,6 +39,8 @@ const Cart = () => {
                 <hr />
               </div>
             );
+          } else {
+            return null;
           }
         })}
       </div>
